@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-page-js",
+    "path": "/peet/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Dummy content here!</p>","frontmatter":{"title":"Adventures of Peet","slug":"peet"}}},"pageContext":{"slug":"/peet/"}},
+    "staticQueryHashes": []}

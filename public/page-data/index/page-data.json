@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"latest":{"edges":[{"node":{"id":"d734453a-283a-5bc1-a2e2-ac38a8d59f90","fields":{"slug":"/dummy/"},"frontmatter":{"date":"August 11, 2021","title":"Dummy Markdown Page","tags":["hello","world"],"categories":["study","work"]}}}]},"highlights":{"edges":[]}},"pageContext":{}},
+    "staticQueryHashes": []}
