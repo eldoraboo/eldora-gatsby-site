@@ -12,16 +12,16 @@ shortTitle: "About"
 slug: me
 ---
 # Skills
-### Front End Development
+##### Front End Development
 
-### Back End Development
+##### Back End Development
 
-### Data Science & Analytics
+##### Data Science & Analytics
 
 # Education
-### Bachelor of Science: Data Science And Analytics (Honours)
-#### National University of Singapore --- *2020-2024*
+##### Bachelor of Science: Data Science And Analytics (Honours)
+###### National University of Singapore --- *2020-2024*
 
-### Grade 8 in Music Performance (Piano)
-#### Associated Board Of The Royal Schools of Music --- *2019*
+##### Grade 8 in Music Performance (Piano)
+###### Associated Board Of The Royal Schools of Music --- *2019*
 
