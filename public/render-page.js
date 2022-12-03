@@ -9937,24 +9937,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!******************************************************************************************!*\
-  !*** external "/Users/eldoraboo/Desktop/eldora-master/node_modules/react-dom/server.js" ***!
-  \******************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** external "/Users/eldoraboo/Desktop/eldora-gatsby-site/node_modules/react-dom/server.js" ***!
+  \***********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/eldoraboo/Desktop/eldora-master/node_modules/react-dom/server.js");
+module.exports = require("/Users/eldoraboo/Desktop/eldora-gatsby-site/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!*************************************************************************************!*\
-  !*** external "/Users/eldoraboo/Desktop/eldora-master/node_modules/react/index.js" ***!
-  \*************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** external "/Users/eldoraboo/Desktop/eldora-gatsby-site/node_modules/react/index.js" ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/eldoraboo/Desktop/eldora-master/node_modules/react/index.js");
+module.exports = require("/Users/eldoraboo/Desktop/eldora-gatsby-site/node_modules/react/index.js");
 
 /***/ }),
 

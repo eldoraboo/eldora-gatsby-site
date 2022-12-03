@@ -11,4 +11,17 @@ comments_off: yes
 shortTitle: "About"
 slug: me
 ---
-Dummy content here!
+# Skills
+### Front End Development
+
+### Back End Development
+
+### Data Science & Analytics
+
+# Education
+### Bachelor of Science: Data Science And Analytics (Honours)
+#### National University of Singapore --- *2020-2024*
+
+### Grade 8 in Music Performance (Piano)
+#### Associated Board Of The Royal Schools of Music --- *2019*
+
