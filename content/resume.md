@@ -1,51 +1,52 @@
 ---
 date: "2022-03-12"
-title: "About"
+title: "Resume"
 author: "Eldora"
 tags: []
 template: "page"
 categories: []
 thumbnail: ../static/logo.png
 description: ""
-comments_off: yes
-shortTitle: "About"
-slug: me
+comments_off: no
+shortTitle: "Resume"
+slug: resume
 ---
 
-Hi! I'm Eldora and I am currently an undergraduate at the National University of Singapore with a degree in Data Science & Analytics. My interests are in Full Stack Development and Data Science.
-
-I first started developing when I picked up HTML/CSS at age of 13 and discovered my interest in front end development. I started creating static websites with simple CSS frameworks like Bootstrap and SASS.
-
-In my pre-university education, I continued pursuing my interest by exposing myself to back end programming languages like JavaScript and Python in my free time. It helped me built user-friendly Whatsapp/Telegram bots.
-
-Finally, while pursuing my undergraduate studies in data science, I worked with data structures & algorithms, statistical computing, and numerical computations using languages like SQL and R.
-
-You can contact me by email at eldoraboo.mby@gmail.com to say hi! I always appreciate meeting new people.
-
-# What I'm doing now
+# Experience
 -------
-*Updated December 3rd, 2022*
+##### Software Engineer (Full-Stack)
+Google Developer Student Clubs NUS
+*2022 - Present*
+- Developing an admin portal with a simple-to-use interface to manage course materials and users.
+- User Management Module, Learning Content Management Module
+- Developing an e-learning portal with a seamless and comprehensive online learning experience.
+- User Profile Management Module, Course Catalog and Checkout Module, Content Delivery Module
 
-I've been picking up crocheting and more specifically, amigurumi. It takes a lot of patience. You miss one stitch, and you need to go all the way back to where you started. Programming as well, when you first start a project, it seems like you are on the right track, but when you finally deploy the product, bugs start popping out of everywhere! Then you would need to backtrack your progress and find that missing stitch. My next big project is a strawberry cow though >.<
+##### Technology Educator (STEM, Robotics & Coding)
+Roboto Coding Academy
+*2020 - Present*
+- Languages: C++, Python3, HTML5, CSS3, JavaScript, Bootstrap
+- Software: Scratch, Makeblock, GameMaker Studio, Thunkable, Android Studio, CoSpaces, Unity
+- Teach and conduct coding, STEM and technology related classes and programs.
+- Develop and curate curriculum resources.
+- Oversee and train students in preparation of coding & robotics competitions.
 
-# Random facts
--------
-- I built my first website in 2010 on Wordpress
-- I like new technologies and gadgets
-- I have a Grade 8 in Piano
-- I am addicted to Minecraft as a kid
-- I wish to own 2 cats
+##### Data Science Intern
+Lumens Auto
+*2022 - 2022*
+- Worked with APIs (Postman, Trello, HubSpot, CarTrack) to retrieve data.
+- Building automated workflows on GitHub to format daily reports.
+- Constructing a business intelligence (BI) system on Metabase.
+- Did data cleaning for unstructured data and devised a large-scale data collection system.
 
-# Tools
--------
-##### Software
-- This website is hosted on Netlify and uses the Gatsby framework
-- **Coding**: Visual Studio Code with Atom One Dark
-- **Music**: Spotify
-
-##### Hardware
-- **PC**: 1.4 GHz Quad-Core Intel Core i5 MacBook Pro 13" 2020
-- **Headphones**: Sony WH-1000XM5
+##### Data Science Intern
+RIMM Sustainability
+*2022 - 2022*
+- Designed and implemented an API to support sequence labeling with spaCy models.
+- Worked with open-source data labeling tools like Doccano to support named entity recognition.
+- Familiarised with JSON and JSONL formatted files for training of NLP models.
+- Deployed data labeling interface and FastAPI on Google Cloud Platform.
+- Worked with few-shot learning models for natural language processing.
 
 # Skills
 -------
@@ -66,6 +67,9 @@ National University of Singapore - *2020-2024*
 ##### Grade 8 in Music Performance (Piano)
 Associated Board Of The Royal Schools of Music - *2019*
 
-# Miscellaneous
+# Contact Me
 -------
-- [Resume](https://eldoraboo.netlify.app/resume)
+I am available for hire and open to any ideas of cooperation. You may reach me at any of the available platforms below.
+- Email: eldoraboo.mby@gmail.com
+- Github: eldoraboo
+- LinkedIn: eldoraboo
