@@ -594,9 +594,9 @@ a.button:hover {
 
 .navigation a.item.home:hover,
 .navigation a.item.home.active,
-.navigation a.item.illustration:hover,
-.navigation a.item.illustration.active {
-  border-bottom-color: var(--indigo);
+.navigation a.item.design:hover,
+.navigation a.item.design.active {
+  border-bottom-color: var(--rainbow-2);
 }
 
 .navigation a.item.about:hover,
