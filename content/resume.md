@@ -15,7 +15,7 @@ slug: resume
 # Experience
 -------
 ##### Software Engineer Intern
-Lumens Auto - <span style="color:rainbow-1">*2022 - Present*</span>
+Lumens Auto - *2022 - Present*
 
 ##### Data Science Intern
 Lumens Auto - *2022 - Present*
