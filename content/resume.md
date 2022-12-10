@@ -14,17 +14,25 @@ slug: resume
 
 # Experience
 -------
+##### Software Engineer Intern
+Lumens Auto - <span style="color:rainbow-1">*2022 - Present*</span>
+
+##### Data Science Intern
+Lumens Auto - *2022 - Present*
+- Worked with APIs (Postman, Trello, HubSpot, CarTrack) to retrieve data.
+- Building automated workflows on GitHub to format daily reports.
+- Constructing a business intelligence (BI) system on Metabase.
+- Did data cleaning for unstructured data and devised a large-scale data collection system.
+
 ##### Software Engineer (Full-Stack)
-Google Developer Student Clubs NUS
-*2022 - Present*
+Google Developer Student Clubs NUS - *2022 - Present*
 - Developing an admin portal with a simple-to-use interface to manage course materials and users.
 - User Management Module, Learning Content Management Module
 - Developing an e-learning portal with a seamless and comprehensive online learning experience.
 - User Profile Management Module, Course Catalog and Checkout Module, Content Delivery Module
 
 ##### Technology Educator (STEM, Robotics & Coding)
-Roboto Coding Academy
-*2020 - Present*
+Roboto Coding Academy - *2020 - Present*
 - Languages: C++, Python3, HTML5, CSS3, JavaScript, Bootstrap
 - Software: Scratch, Makeblock, GameMaker Studio, Thunkable, Android Studio, CoSpaces, Unity
 - Teach and conduct coding, STEM and technology related classes and programs.
@@ -32,16 +40,7 @@ Roboto Coding Academy
 - Oversee and train students in preparation of coding & robotics competitions.
 
 ##### Data Science Intern
-Lumens Auto
-*2022 - 2022*
-- Worked with APIs (Postman, Trello, HubSpot, CarTrack) to retrieve data.
-- Building automated workflows on GitHub to format daily reports.
-- Constructing a business intelligence (BI) system on Metabase.
-- Did data cleaning for unstructured data and devised a large-scale data collection system.
-
-##### Data Science Intern
-RIMM Sustainability
-*2022 - 2022*
+RIMM Sustainability - *2022 - 2022*
 - Designed and implemented an API to support sequence labeling with spaCy models.
 - Worked with open-source data labeling tools like Doccano to support named entity recognition.
 - Familiarised with JSON and JSONL formatted files for training of NLP models.
