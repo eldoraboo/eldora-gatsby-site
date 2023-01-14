@@ -619,8 +619,8 @@ a.button:hover {
   border-bottom-color: var(--rainbow-1);
 }
 
-.navigation a.item.linkedin:hover,
-.navigation a.item.linkedin.active {
+.navigation a.item.linked-in:hover,
+.navigation a.item.linked-in.active {
   border-bottom-color: var(--rainbow-6);
 }
 

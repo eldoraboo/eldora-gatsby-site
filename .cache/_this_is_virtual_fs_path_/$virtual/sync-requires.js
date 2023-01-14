@@ -4,7 +4,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/eldoraboo/Desktop/eldora-gatsby-site/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/eldoraboo/Desktop/eldora-gatsby-site/src/pages/404.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/eldoraboo/Desktop/eldora-gatsby-site/src/pages/blog.js")),
   "component---src-pages-design-js": preferDefault(require("/Users/eldoraboo/Desktop/eldora-gatsby-site/src/pages/design.js")),
