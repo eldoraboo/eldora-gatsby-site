@@ -45,7 +45,7 @@ export function appendComments(commentBox) {
 
   commentScript.async = true
   commentScript.src = 'https://utteranc.es/client.js'
-  commentScript.setAttribute('repo', 'taniarascia/comments')
+  commentScript.setAttribute('repo', 'eldoraboo/eldora-gatsby-site')
   commentScript.setAttribute('issue-term', 'pathname')
   commentScript.setAttribute('id', 'utterances')
   commentScript.setAttribute(

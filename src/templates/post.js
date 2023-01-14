@@ -1,23 +1,23 @@
-import React, { useEffect } from 'react'
-import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+import React, { useEffect } from "react";
+import { graphql } from "gatsby";
+import Helmet from "react-helmet";
 
-import { Layout } from '../components/Layout'
-import { SEO } from '../components/SEO'
-import { PostSidebar } from '../components/PostSidebar'
-import { Comments } from '../components/Comments'
-import config from '../utils/config'
-import { appendComments } from '../utils/helpers'
+import { Layout } from "../components/Layout";
+import { SEO } from "../components/SEO";
+import { PostSidebar } from "../components/PostSidebar";
+import { Comments } from "../components/Comments";
+import config from "../utils/config";
+import { appendComments } from "../utils/helpers";
 
 export default function PostTemplate({ data }) {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
   const { tags, categories, title, date, thumbnail, comments_off } =
-    post.frontmatter
-  const commentBox = React.createRef()
+    post.frontmatter;
+  const commentBox = React.createRef();
 
   useEffect(() => {
-    appendComments(commentBox)
-  }, [commentBox])
+    appendComments(commentBox);
+  }, [commentBox]);
 
   return (
     <div>
@@ -55,10 +55,10 @@ export default function PostTemplate({ data }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-PostTemplate.Layout = Layout
+PostTemplate.Layout = Layout;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -85,4 +85,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
