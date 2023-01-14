@@ -1,26 +1,26 @@
-import React, { useMemo } from 'react'
-import { Link, graphql } from 'gatsby'
-import Helmet from 'react-helmet'
-import Img from 'gatsby-image'
+import React, { useMemo } from "react";
+import { Link, graphql } from "gatsby";
+import Helmet from "react-helmet";
+import Img from "gatsby-image";
 
-import { Layout } from '../components/Layout'
-import { Posts } from '../components/Posts'
-import { SEO } from '../components/SEO'
-import { Heading } from '../components/Heading'
-import { Hero } from '../components/Hero'
-import { projectsList } from '../data/projectsList'
-import { getSimplifiedPosts } from '../utils/helpers'
-import config from '../utils/config'
+import { Layout } from "../components/Layout";
+import { Posts } from "../components/Posts";
+import { SEO } from "../components/SEO";
+import { Heading } from "../components/Heading";
+import { Hero } from "../components/Hero";
+import { projectsList } from "../data/projectsList";
+import { getSimplifiedPosts } from "../utils/helpers";
+import config from "../utils/config";
 
 export default function Index({ data }) {
-  const latest = data.latest.edges
-  const highlights = data.highlights.edges
-  const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
+  const latest = data.latest.edges;
+  const highlights = data.highlights.edges;
+  const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest]);
   const simplifiedHighlights = useMemo(
     () =>
       getSimplifiedPosts(highlights, { shortTitle: true, thumbnails: true }),
     [highlights]
-  )
+  );
 
   return (
     <div>
@@ -102,14 +102,29 @@ export default function Index({ data }) {
                       </a>
                       <p>{project.tagline}</p>
                     </div>
-                    <div className="anchored links">
+                    <div className="links anchored">
                       {project.writeup && (
-                        <Link className="button" to={project.writeup}>
+                        <Link className="button small" to={project.writeup}>
                           Article
                         </Link>
                       )}
-                      <a className="button flex" href={project.url}>
-                        Demo
+                      {project.url && (
+                        <a
+                          className="button small flex"
+                          href={project.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Demo <ExternalLinkIcon />
+                        </a>
+                      )}
+                      <a
+                        className="button small flex"
+                        href={`https://github.com/eldoraboo/${project.slug}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Source <ExternalLinkIcon />
                       </a>
                     </div>
                   </div>
@@ -139,7 +154,7 @@ export default function Index({ data }) {
   );
 }
 
-Index.Layout = Layout
+Index.Layout = Layout;
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -191,4 +206,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
