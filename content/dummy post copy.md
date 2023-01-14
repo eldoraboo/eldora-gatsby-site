@@ -11,4 +11,13 @@ comments_off: no
 shortTitle: "short"
 slug: dummy2
 ---
+
 Dummy content here!
+
+<script src="https://utteranc.es/client.js"
+        repo="eldoraboo/eldora-gatsby-site"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
