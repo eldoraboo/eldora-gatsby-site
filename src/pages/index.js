@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Img from "gatsby-image";
 
+import { ExternalLinkIcon } from "../assets/ExternalLinkIcon";
 import { Layout } from "../components/Layout";
 import { Posts } from "../components/Posts";
 import { SEO } from "../components/SEO";
