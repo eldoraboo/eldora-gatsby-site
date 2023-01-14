@@ -27,9 +27,6 @@ You can contact me by email at eldoraboo.mby@gmail.com to say hi! I always appre
 ---
 
 - I built my first website in 2010 on Wordpress
-- I like new technologies and gadgets
-- I have a Grade 8 in Piano
-- I am addicted to Minecraft as a kid
 - I wish to own 2 cats
 
 # Tools
@@ -45,7 +42,6 @@ You can contact me by email at eldoraboo.mby@gmail.com to say hi! I always appre
 ##### Hardware
 
 - **PC**: 1.4 GHz Quad-Core Intel Core i5 MacBook Pro 13" 2020
-- **Headphones**: Sony WH-1000XM5
 
 # Skills
 
@@ -82,4 +78,4 @@ Associated Board Of The Royal Schools of Music - _2019_
 
 ---
 
-- [Resume](https://eldoraboo.netlify.app/resume)
+- [Resume](https://eldoraboo.github.io)

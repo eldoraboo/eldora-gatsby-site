@@ -6,7 +6,7 @@ import github from "../assets/nav-github.png";
 
 const links = [
   { url: "https://linkedin.com/in/eldoraboo", label: "LinkedIn" },
-  { url: "https://eldoraboo.github.io/", label: "Portfolio" },
+  { url: "https://eldoraboo.github.io/", label: "Resume" },
   { url: "https://t.me/lengthycat", label: "Looking for a Tutor?" },
 ];
 const madeWithLinks = [
