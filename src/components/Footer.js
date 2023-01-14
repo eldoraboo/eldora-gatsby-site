@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import netlify from '../assets/netlify.png'
-import gatsby from '../assets/gatsby.png'
-import github from '../assets/nav-github.png'
+import netlify from "../assets/netlify.png";
+import gatsby from "../assets/gatsby.png";
+import github from "../assets/nav-github.png";
 
 const links = [
-  { url: 'https://eldoraboo.substack.com/subscribe', label: 'Newsletter' },
-  { url: 'https://ko-fi.com/eldoraboo', label: 'Ko-Fi' },
-  { url: 'https://patreon.com/eldoraboo', label: 'Patreon' },
-  { url: 'https://eldoraboo.github.io/rss.xml', label: 'RSS' },
-]
+  { url: "https://linkedin.com/in/eldoraboo", label: "LinkedIn" },
+  { url: "https://eldoraboo.github.io/", label: "Portfolio" },
+  { url: "https://t.me/lengthycat", label: "Looking for a Tutor?" },
+];
 const madeWithLinks = [
-  { url: 'https://www.gatsbyjs.org/', label: 'Gatsby', icon: gatsby },
-  { url: 'https://github.com/eldoraboo', label: 'GitHub', icon: github },
-  { url: 'https://www.netlify.com', label: 'Netlify', icon: netlify },
-]
+  { url: "https://www.gatsbyjs.org/", label: "Gatsby", icon: gatsby },
+  { url: "https://github.com/eldoraboo", label: "GitHub", icon: github },
+  { url: "https://www.netlify.com", label: "Netlify", icon: netlify },
+];
 
 export const Footer = () => {
   return (
@@ -49,5 +48,5 @@ export const Footer = () => {
         </nav>
       </section>
     </footer>
-  )
-}
+  );
+};
