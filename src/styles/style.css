@@ -42,6 +42,7 @@
   --rainbow-3: #59abf7;
   --rainbow-4: #5eddac;
   --rainbow-5: #f6cd5d;
+  --rainbow-6: #fa8f6e;
 
   --orange: #ff7e22;
   --yellow: #fca62a;
@@ -1460,6 +1461,10 @@ a.gatsby-resp-image-link {
 
 .rainbow-5 {
   background: var(--rainbow-5);
+}
+
+.rainbow-6 {
+  background: var(--rainbow-6);
 }
 
 .image {
