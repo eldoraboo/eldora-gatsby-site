@@ -2,5 +2,8 @@
   "main.js": "render-page.js",
   "render-page.js.map": "render-page.js.map",
   "static/floppylogo.png": "static/floppylogo-0c07fbe46fbceda7efdfb169dd4ef14a.png",
+  "static/mozzi.jpg": "static/mozzi-0238263270c38ec7117208e955988fc6.jpg",
+  "static/netlify.png": "static/netlify-603ef81c872f9df8c343d0d9477aa777.png",
+  "static/profile.jpg": "static/profile-b181471168d5c48d594a54b539c539b7.jpg",
   "static/tania2020.jpg": "static/tania2020-2149703564d8e38b1ca7ad4cd4a7a356.jpg"
 }

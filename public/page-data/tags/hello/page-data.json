@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/tags/hello/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"id":"34d82c36-ad82-5ac1-b2ed-804be196c7cd","fields":{"slug":"/dummy/"},"frontmatter":{"date":"August 11, 2021","title":"Dummy Markdown Page","tags":["hello","world"],"categories":["study","work"]}}},{"node":{"id":"621cdf84-48af-5428-886c-c6d46471ac11","fields":{"slug":"/dummy/"},"frontmatter":{"date":"August 11, 2021","title":"Dummy Markdown Page","tags":["hello","world"],"categories":["study","work"]}}},{"node":{"id":"a1090cfa-62d7-52a3-839c-be00b0602b68","fields":{"slug":"/dummy/"},"frontmatter":{"date":"August 11, 2021","title":"Dummy Markdown Page","tags":["hello","world"],"categories":["study","work"]}}}]}},"pageContext":{"tag":"hello"}},
-    "staticQueryHashes": ["523315755"]}
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"id":"628ed2bf-67cf-57a1-beea-fc3ee13e4423","fields":{"slug":"/dummy/"},"frontmatter":{"date":"August 11, 2021","title":"Dummy Markdown Page","tags":["hello","world"],"categories":["study","work"]}}}]}},"pageContext":{"tag":"hello"}},
+    "staticQueryHashes": []}
