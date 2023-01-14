@@ -34,8 +34,8 @@ export default function Index({ data }) {
               Welcome to my digital garden. 🌱
               <br />
               <br />
-              I'm a software developer in Singapore. I make{' '}
-              <Link to="/projects">open-source projects</Link> and{' '}
+              I'm a software developer in Singapore. I make{" "}
+              <Link to="/projects">open-source projects</Link> and{" "}
               <Link to="/blog">write</Link> about code, design, and life. I like
               playing the piano, crocheting, synthwave, makeup, and coding.
               <br />
@@ -76,7 +76,7 @@ export default function Index({ data }) {
                     </Link>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </section>
@@ -113,12 +113,11 @@ export default function Index({ data }) {
                       </a>
                     </div>
                   </div>
-                )
+                );
               })}
           </div>
         </section>
-
-        <section className="segment large">
+        {/*<section className="segment large">
           <Heading title="Newsletter" />
           <p>
             If I write something new, I'll let you know via newsletter. I don't
@@ -134,10 +133,10 @@ export default function Index({ data }) {
               Subscribe to the Newsletter
             </a>
           </p>
-        </section>
+        </section>*/}
       </div>
     </div>
-  )
+  );
 }
 
 Index.Layout = Layout
