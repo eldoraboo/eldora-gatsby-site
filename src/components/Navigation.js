@@ -1,26 +1,27 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import { ExternalLinkIcon } from '../assets/ExternalLinkIcon'
-import blog from '../assets/nav-blog.png'
-import floppyLogo from '../assets/floppylogo.png'
-import floppy from '../assets/nav-floppy.png'
-import github from '../assets/nav-github.png'
-import projects from '../assets/nav-projects.png'
-import moon from '../assets/moon.png'
-import { slugify } from '../utils/helpers'
+import { ExternalLinkIcon } from "../assets/ExternalLinkIcon";
+import blog from "../assets/nav-blog.png";
+import floppyLogo from "../assets/floppylogo.png";
+import floppy from "../assets/nav-floppy.png";
+import github from "../assets/nav-github.png";
+import projects from "../assets/nav-projects.png";
+import moon from "../assets/moon.png";
+import { slugify } from "../utils/helpers";
 
 const mainNavItems = [
-  { url: '/', icon: floppy, label: 'Home', mobileOnly: true },
-  { url: '/me', icon: floppy, label: 'About' },
-  { url: '/blog', icon: blog, label: 'Blog' },
-  { url: '/projects', icon: projects, label: 'Projects' },
-  { url: '/design', icon: projects, label: 'Design' },
-]
+  { url: "/", icon: floppy, label: "Home", mobileOnly: true },
+  { url: "/me", icon: floppy, label: "About" },
+  { url: "/blog", icon: blog, label: "Blog" },
+  { url: "/projects", icon: projects, label: "Projects" },
+  { url: "/design", icon: projects, label: "Design" },
+];
 
 const socialNavItems = [
-  { url: 'https://github.com/eldoraboo', icon: github, label: 'GitHub' },
-]
+  { url: "https://github.com/eldoraboo", icon: github, label: "GitHub" },
+  { url: "https://linkedin.com/in/eldoraboo", icon: github, label: "LinkedIn" },
+];
 
 export const Navigation = ({ theme, onUpdateTheme }) => {
   return (
@@ -39,7 +40,7 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
                   key={item.label}
                   activeClassName="active"
                   className={`item ${slugify(item.label)} ${
-                    item.mobileOnly ? 'mobile-only' : ''
+                    item.mobileOnly ? "mobile-only" : ""
                   }`}
                 >
                   <span>{item.label}</span>
@@ -71,5 +72,5 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
