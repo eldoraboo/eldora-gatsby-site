@@ -22,14 +22,6 @@ Finally, while pursuing my undergraduate studies in data science, I worked with 
 
 You can contact me by email at eldoraboo.mby@gmail.com to say hi! I always appreciate meeting new people.
 
-# What I'm doing now
-
----
-
-_Updated December 3rd, 2022_
-
-I've been picking up crocheting and more specifically, amigurumi. It takes a lot of patience. You miss one stitch, and you need to go all the way back to where you started. Programming as well, when you first start a project, it seems like you are on the right track, but when you finally deploy the product, bugs start popping out of everywhere! Then you would need to backtrack your progress and find that missing stitch. My next big project is a strawberry cow though >.<
-
 # Random facts
 
 ---
