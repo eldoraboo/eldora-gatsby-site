@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   /* Colors */
@@ -53,12 +53,12 @@
   --indigo-muted: #f1f2fd;
 
   /* Font family */
-  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont,
-    'Helvetica Neue', Arial, sans-serif;
-  --font-family-monospace: Menlo, 'IBM Plex Mono', Menlo, monospace;
-  --font-family-heading: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+  --font-family-base: "Inter", -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: Menlo, "IBM Plex Mono", Menlo, monospace;
+  --font-family-heading: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
     Arial, sans-serif;
-  --font-family-nav: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+  --font-family-nav: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
     sans-serif;
 
   /* Font color */
@@ -617,6 +617,11 @@ a.button:hover {
 .navigation a.item.git-hub:hover,
 .navigation a.item.git-hub.active {
   border-bottom-color: var(--rainbow-1);
+}
+
+.navigation a.item.linkedin:hover,
+.navigation a.item.linkedin.active {
+  border-bottom-color: var(--rainbow-6);
 }
 
 .theme-toggle {
