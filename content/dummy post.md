@@ -19,13 +19,19 @@ Creating an accordion that allows users to add and delete rows in Chakra UI can 
 
 2. Next, import the necessary components from Chakra UI that you'll be using to build the accordion. These include the `Accordion`, `AccordionItem`, `AccordionHeader`, `AccordionPanel`, and `AccordionIcon` components.
 
-```
-import { Accordion, AccordionItem, AccordionHeader, AccordionPanel, AccordionIcon } from "@chakra-ui/core"
+```tsx
+import {
+  Accordion,
+  AccordionItem,
+  AccordionHeader,
+  AccordionPanel,
+  AccordionIcon,
+} from "@chakra-ui/core";
 ```
 
 3. Create a new component called "AccordionContainer" that will contain the accordion and its state. In this component, you will use the `useState` hook to create a state variable that will hold the data for the accordion sections.
 
-```
+```tsx
 function AccordionContainer() {
   const [sections, setSections] = useState([
     { title: "Section 1", content: "Content for section 1" },
@@ -40,60 +46,63 @@ function AccordionContainer() {
 
 4. Use the Accordion component to create the main container for the accordion. Inside the `Accordion` component, you will use the `AccordionItem` component to create each section of the accordion. The `AccordionItem` component takes two props, `title` and `children`. `title` is used to render the title of the accordion section and `children` is used to render the content of the section.
 
-```
-  return (
-    <Accordion>
-      {sections.map((section, index) => (
-        <AccordionItem key={index}>
-          <AccordionHeader>
-            <Box flex="1" textAlign="left">
-              {section.title}
-            </Box>
-            <AccordionIcon />
-          </AccordionHeader>
-          <AccordionPanel>{section.content}</AccordionPanel>
-        </AccordionItem>
-      ))}
-    </Accordion>
-  );
+```tsx
+return (
+  <Accordion>
+    {sections.map((section, index) => (
+      <AccordionItem key={index}>
+        <AccordionHeader>
+          <Box flex="1" textAlign="left">
+            {section.title}
+          </Box>
+          <AccordionIcon />
+        </AccordionHeader>
+        <AccordionPanel>{section.content}</AccordionPanel>
+      </AccordionItem>
+    ))}
+  </Accordion>
+);
 ```
 
 5. Inside the `AccordionItem` component, use the `AccordionHeader` and `AccordionPanel` components to create the header and content of each section respectively. The `AccordionHeader` component is used to render the title of the section, while the `AccordionPanel` component is used to render the content of the section.
 
 6. Next, add a button or link that will allow users to add a new row to the accordion. This can be done by adding a button component with the `onClick` prop that calls a function to add a new row. You will also add a delete button or link inside each section of the accordion that allows users to delete a specific row.
 
-```
-  return (
-    <Accordion>
-      {sections.map((section, index) => (
-        <AccordionItem key={index}>
-          <AccordionHeader>
-            <Box flex="1" textAlign="left">
-              {section.title}
-            </Box>
-            <AccordionIcon />
-            <Button onClick={() => deleteSection(index)}>Delete</Button>
-          </AccordionHeader>
-          <AccordionPanel>{section.content}</AccordionPanel>
-        </AccordionItem>
-      ))}
-      <Button onClick={addSection}>Add new section</Button>
-    </Accordion>
-  );
+```tsx
+return (
+  <Accordion>
+    {sections.map((section, index) => (
+      <AccordionItem key={index}>
+        <AccordionHeader>
+          <Box flex="1" textAlign="left">
+            {section.title}
+          </Box>
+          <AccordionIcon />
+          <Button onClick={() => deleteSection(index)}>Delete</Button>
+        </AccordionHeader>
+        <AccordionPanel>{section.content}</AccordionPanel>
+      </AccordionItem>
+    ))}
+    <Button onClick={addSection}>Add new section</Button>
+  </Accordion>
+);
 ```
 
 7. Finally, you will create the function that will handle the adding and deletion of rows in the accordion. The function will update the state variable that holds the data for the accordion sections by using the `setState` method.
 
-```
-  function addSection() {
-    setSections([...sections, { title: "New Section", content: "Content for new section" }]);
-  }
+```tsx
+function addSection() {
+  setSections([
+    ...sections,
+    { title: "New Section", content: "Content for new section" },
+  ]);
+}
 
-  function deleteSection(index) {
-    const newSections = [...sections];
-    newSections.splice(index, 1);
-    setSections(newSections);
-  }
+function deleteSection(index) {
+  const newSections = [...sections];
+  newSections.splice(index, 1);
+  setSections(newSections);
+}
 ```
 
 8. Now your accordion is ready to be rendered in your application, you can use the AccordionContainer component in your application and it will work as expected.
@@ -104,17 +113,28 @@ By following these steps, you should be able to create an accordion that allows 
 
 Here is the complete code:
 
-```
-import { Accordion, AccordionItem, AccordionHeader, AccordionPanel, AccordionIcon, Button, Box } from "@chakra-ui/core"
+```tsx
+import {
+  Accordion,
+  AccordionItem,
+  AccordionHeader,
+  AccordionPanel,
+  AccordionIcon,
+  Button,
+  Box,
+} from "@chakra-ui/core";
 
 function AccordionContainer() {
   const [sections, setSections] = useState([
     { title: "Section 1", content: "Content for section 1" },
-    { title: "Section 2", content: "Content for section 2" }
+    { title: "Section 2", content: "Content for section 2" },
   ]);
 
   function addSection() {
-    setSections([...sections, { title: "New Section", content: "Content for new section" }]);
+    setSections([
+      ...sections,
+      { title: "New Section", content: "Content for new section" },
+    ]);
   }
 
   function deleteSection(index) {
