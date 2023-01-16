@@ -8,7 +8,7 @@ categories: ["Chakra"]
 thumbnail: ../static/logo.png
 description: "desc"
 shortTitle: "short"
-slug: accordion-chakra
+slug: popular-accordion-chakra
 ---
 
 ## Step by Step Guide
