@@ -58,9 +58,7 @@ export default function Index({ data }) {
             {simplifiedLatest.map((post) => {
               return (
                 <div className="muted card flex" key={`${post.slug}`}>
-                  <Img fixed={"../" + `${post.thumbnail}`} />
-                  <Img fixed={"../" + "../static/logo.png"} />
-                  <Img fixed={"../../static/logo.png"} />
+                  <Img fixed={post.thumbnail} />
                   <div>
                     <time>{post.date}</time>
                     <Link className="card-header" to={post.slug}>
