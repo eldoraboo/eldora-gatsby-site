@@ -10,6 +10,7 @@ description: "desc"
 shortTitle: "short"
 slug: accordion-chakra
 ---
+
 ## Step by Step Guide
 
 Creating an accordion that allows users to add and delete rows in Chakra UI can be a great way to make a dynamic and interactive user interface. Chakra UI is a popular library for building user interfaces with React, and it offers a wide range of components that can be used to build an accordion. Here's a step-by-step guide on how to create such an accordion using Chakra UI, including code snippets for each step.
