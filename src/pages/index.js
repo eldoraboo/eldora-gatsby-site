@@ -59,16 +59,10 @@ export default function Index({ data }) {
         <section className="segment first">
           <Heading title="Latest Posts" slug="/blog" />
 
-          <Posts data={simplifiedLatest} newspaper />
-        </section>
-
-        <section className="segment large">
-          <Heading title="Popular" />
-
           <div className="highlight-preview">
-            {simplifiedHighlights.map((post) => {
+            {simplifiedLatest.map((post) => {
               return (
-                <div className="muted card flex" key={`popular-${post.slug}`}>
+                <div className="muted card flex" key={`${post.slug}`}>
                   {post.thumbnail && <Img fixed={post.thumbnail} />}
                   <div>
                     <time>{post.date}</time>
