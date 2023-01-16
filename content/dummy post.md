@@ -5,7 +5,7 @@ author: "Eldora"
 tags: ["web development"]
 template: "post"
 categories: ["Chakra"]
-thumbnail: [../static/logo.png, ../static/logo.png]
+thumbnail: https://avatars.githubusercontent.com/u/54212428?s=280&v=4
 description: "desc"
 shortTitle: "short"
 slug: accordion-chakra
