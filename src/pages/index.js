@@ -59,6 +59,8 @@ export default function Index({ data }) {
               return (
                 <div className="muted card flex" key={`${post.slug}`}>
                   <Img src={"../" + `${post.thumbnail}`} />
+                  <Img src={"../" + "../static/logo.png"} />
+                  <Img src={"../../static/logo.png"} />
                   <div>
                     <time>{post.date}</time>
                     <Link className="card-header" to={post.slug}>
