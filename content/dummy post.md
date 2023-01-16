@@ -5,7 +5,7 @@ author: "Eldora"
 tags: ["web development"]
 template: "post"
 categories: ["Chakra"]
-thumbnail: ../static/logo.png
+thumbnail: ../src/assets/nav-projects.png
 description: "desc"
 shortTitle: "short"
 slug: popular-accordion-chakra
