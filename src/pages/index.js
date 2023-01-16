@@ -16,7 +16,10 @@ import config from "../utils/config";
 export default function Index({ data }) {
   const latest = data.latest.edges;
   const highlights = data.highlights.edges;
-  const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest]);
+  const simplifiedLatest = useMemo(
+    () => getSimplifiedPosts(latest, { shortTitle: true, thumbnails: true }),
+    [latest]
+  );
   const simplifiedHighlights = useMemo(
     () =>
       getSimplifiedPosts(highlights, { shortTitle: true, thumbnails: true }),
