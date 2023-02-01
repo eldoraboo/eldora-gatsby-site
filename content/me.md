@@ -22,13 +22,6 @@ Finally, while pursuing my undergraduate studies in data science, I worked with 
 
 You can contact me by email at eldoraboo.mby@gmail.com to say hi! I always appreciate meeting new people.
 
-# Random facts
-
----
-
-- I built my first website in 2010 on Wordpress
-- I wish to own 2 cats
-
 # Tools
 
 ---
