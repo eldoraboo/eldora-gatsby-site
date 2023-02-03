@@ -86,13 +86,13 @@ _Internship • RIMM Sustainability • May'22 - Jul'22_
 A piano key visualizer for scales
 - [Source](https://github.com/eldoraboo/scales-io) • [Live Site](https://scales-io.netlify.app/)
 
-<img src="../static/projects/scales-io-light.png" style="height: 400px;"/><img src="../static/projects/scales-io-dark.png" style="height: 400px;"/>
+<img src="../static/projects/scales-io-light.png" style="height: 400px;"/><img src="../static/projects/scales-io-dark.png" style="height: 400px;"/><br>
 
 ##### Sencilla Theme
 Minimalistic, mobile-friendly one-page resume built with HTML, CSS, and JavaScript
 - [Source](https://github.com/eldoraboo/sencilla-theme) • [Live Site](https://eldoraboo.github.io/sencilla-theme/)
 
-<img src="../static/projects/sencilla-theme.png" style="height: 400px;"/>
+<img src="../static/projects/sencilla-theme.png" style="height: 400px;"/><br>
 
 ##### Trello-Postman Client
 Trello API optimised as a collection for Postman
@@ -102,10 +102,10 @@ Trello API optimised as a collection for Postman
 An auto-labeling pipeline for text classification built with spaCy, Hugging Face, and Docker
 - [Source](https://github.com/eldoraboo/auto-labeling)
 
-<img src="../static/projects/auto-labeling.png"/>
+<img src="../static/projects/auto-labeling.png"/><br>
 
 ##### Pair-A-Legal
 Chatbot paired with a website depository filled with succinct profiles of lawyers offering their services
 - [Source](https://github.com/eldoraboo/PairALegal) • [Live Site](https://eldoraboo.github.io/PairALegal/)
 
-<img src="../static/projects/pair-a-legal.png" style="height: 400px;"/>
+<img src="../static/projects/pair-a-legal.png" style="height: 400px;"/><br>
