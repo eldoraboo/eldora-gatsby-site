@@ -600,8 +600,8 @@ a.button:hover {
   border-bottom-color: var(--rainbow-2);
 }
 
-.navigation a.item.about:hover,
-.navigation a.item.about.active {
+.navigation a.item.resume:hover,
+.navigation a.item.resume.active {
   border-bottom-color: var(--rainbow-3);
 }
 
