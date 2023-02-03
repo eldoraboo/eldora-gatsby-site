@@ -86,7 +86,7 @@ _Internship • RIMM Sustainability • May'22 - Jul'22_
 A piano key visualizer for scales
 - [Source](https://github.com/eldoraboo/scales-io) • [Live Site](https://scales-io.netlify.app/)
 
-<img src="../static/projects/scales-io-light.png" style="height: 400px;"/><img src="../static/projects/scales-io-dark.png" style="height: 400px;"/><br>
+<img src="../static/projects/scales-io.png" style="height: 400px;"/><br>
 
 ##### Sencilla Theme
 Minimalistic, mobile-friendly one-page resume built with HTML, CSS, and JavaScript
