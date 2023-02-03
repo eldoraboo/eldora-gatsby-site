@@ -12,7 +12,7 @@ import { slugify } from "../utils/helpers";
 
 const mainNavItems = [
   { url: "/", icon: floppy, label: "Home", mobileOnly: true },
-  { url: "/me", icon: floppy, label: "About" },
+  { url: "/resume", icon: floppy, label: "Resume" },
   { url: "/blog", icon: blog, label: "Blog" },
   { url: "/projects", icon: projects, label: "Projects" },
   { url: "/design", icon: projects, label: "Design" },
